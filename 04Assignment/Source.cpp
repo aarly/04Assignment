@@ -66,7 +66,7 @@ int main()
 		cout << "=====================================================================" << endl;
 		cout << "You will put put against three other computer AI, each using their own search patterns." << endl;
 		cout << "You will now be entering where you believe the enemy location is on the 8x8 grid.\n" << endl;
-		cout << enemyLocation << endl;
+		cout << enemyLocation << endl; 
 		cin >> playerNumberSearch;
 		//
 		if (playerNumberSearch != enemyLocation)
